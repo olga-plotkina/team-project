@@ -1,0 +1,25 @@
+:root {
+    --title-font: 'Montserat', serif
+}
+
+body {
+    font-size: 'Montserat', serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    
+    
+}
+/* hero */
+
+.title {
+    font-size: 56px;
+    line-height: 69px;
+}
