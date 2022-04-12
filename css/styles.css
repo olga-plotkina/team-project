@@ -1,82 +1,64 @@
 :root {
-    --title-font: 'Montserat', serif
+  --title-font: "Montserat", sans-serif;
 }
 
 body {
-    font-size: 'Montserat', serif;
+  font-size: "Montserat", sans-serif;
 }
 
 h1,
 h2,
 h3,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    width: 1170px;
-    margin: 0 auto;
-    
+  width: 1170px;
+  margin: 0 auto;
 }
 /* hero */
 
-.title {
-    font-size: 56px;
-    width: 433px;
-    line-height: 1.5;
-    /* margin-bottom: 36px; */
-    margin-left: 162px;
-    margin-right: 126px;
-    padding-bottom: 36px;
+.hero-section {
+  display: flex;
+  max-width: 1440px;
+  background-color: #f1f1f2;
 }
 
-.hero-section {
-    max-width: 1440px;
-    /* padding-top: 154px;
-    padding-bottom: 135px; */
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+.content {
+  padding-left: 162px;
+  padding-top: 154px;
+  padding-bottom: 135px;
+  margin-right: 126px;
+}
+
+.title {
+  font-size: 56px;
+  font-family: var(--title-font);
+  width: 433px;
+  line-height: 1.5;
+  margin-bottom: 36px;
+  margin-right: 0;
 }
 
 .title-text {
-    font-family: var(--title-font)
-    font-size: 20px;
-    line-height: 1.7;
-    width: 422px;
-    padding-bottom: 52px;
-    padding-left: 162px;
-    
-}
-
-.hero-img {
-    padding-right: 0;
-    padding-left: 712px;
-    justify-content: flex-end;
-    padding-top: 0;
-}
-
-.hero-container {
-    display: flex;
-    flex-direction: column;
-}
-.title,
-.title-text,
-.hero-button {
-    flex-direction: column;
+  font-family: var(--title-font);
+  font-size: 20px;
+  line-height: 1.7;
+  width: 430px;
+  margin-bottom: 52px;
 }
 
 .hero-button {
-    font-family: var(--title-font);
-    width: 200px;
-    font-size: 18px;
-    line-height: 1.4;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #F7941E;
-    border-radius: 5px;   
-    padding: 20px 25px;
-    border: none;
+  font-family: var(--title-font);
+  width: 200px;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #f7941e;
+  border-radius: 5px;
+  padding: 20px 25px;
+  border: none;
 }
